@@ -17,3 +17,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Desenvolvedores:
 - [Giovanna](https://github.com/giovannamwt)
 - [Leandro](https://github.com/skulzks)
+-
+Design:
+- [Luan] (https://github.com/in100tiva)
+  
+  
