@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: #ce7e7e;
+    background-size: cover;
+}
+
+main{
+    margin: 101px auto ;
+    border-radius: 20px;
+    display: flex;
+    width: 356px;
+    height: 566px;
+    padding: 54px 32px 32px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    flex-shrink: 0;
+    background-color: #2D2A37;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 188px 52px 0px rgba(0, 0, 0, 0.01), 0px 120px 48px 0px rgba(0, 0, 0, 0.04), 0px 68px 41px 0px rgba(0, 0, 0, 0.15), 0px 30px 30px 0px rgba(0, 0, 0, 0.26), 0px 8px 17px 0px rgba(0, 0, 0, 0.29), 0px 6px 8px 0px rgba(255, 255, 255, 0.10) inset, 0px -4px 5px 0px rgba(0, 0, 0, 0.22) inset;
+
+}
+.tela1{
+    margin: 0;
+}
+.abaixo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.calculo, h1{
+    color: #6B6B6B;
+    text-align: right;
+    font-family: "Rubik" sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.4px;
+}
+.calculo{
+    margin: 0;
+}
+
+.resultado{
+    color: #EBEBEB;
+    text-align: right;
+    font-family: "Rubik";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.4px */
+    letter-spacing: -0.72px;
+    width: 228px;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 368px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin:  0;
+    padding: 0;
+
+
+}
+
+.botao1{
+    border-style: none;
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+    border-radius: 20px;
+    color: #EBEBEB;
+    text-align: center;
+    font-family: "Rubik" sans-serif;
+    font-size: 24px;
+}
+
+.botao1:hover{
+
+    background-color: #272626;
+}
+
+.botao2{
+    background-color: #782828;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #782828;
+    border-style: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    color: #EBEBEB;
+    text-align: center;
+    font-family: "Rubik" sans-serif;
+    font-size: 24px;
+}
+.botao2:hover{
+    background-color: #a03636;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 20px;
+    
+    box-shadow: 0px 11px 7px 0px rgba(0, 0, 0, 0.01), 0px 7px 7px 0px rgba(0, 0, 0, 0.04), 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.26), 0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 3px 0px rgba(255, 255, 255, 0.06) inset;
+}
+#igual {
+    border-radius: 20px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #E24545;
+
+box-shadow: 0px 11px 7px 0px rgba(0, 0, 0, 0.01), 0px 7px 7px 0px rgba(0, 0, 0, 0.04), 0px 4px 6px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.26), 0px 0px 2px 0px rgba(0, 0, 0, 0.29), 0px 2px 3px 0px rgba(255, 255, 255, 0.10) inset;
+}
+#igual:hover {
+    background-color: #ce7e7e;
+    }    
+    span { 
+        color: #fa5d5d;
+    }
+    /* display: flex;
+
+    padding: 101px 0px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(45,42,55);
+    background: linear-gradient(180deg, rgba(45,42,55,1) 35%, rgba(235,235,235,1) 100%);
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
